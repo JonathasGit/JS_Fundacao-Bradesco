@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Básica da Linguagem JavaScript</title>
+</head>
+<body>
+    <h3>Programa para dar boas vindas</h3>
+    <!--Capturar o nome do usuário e apresentar a saudação
+    -->
+
+    <script language="JavaScript">
+        var js_nome;
+
+        /*Entrada dos dados*/
+        js_nome = window.prompt('Entre com seu nome: ' , 'Digite seu nome na caixa');
+
+        // Saída dos Dados 
+        //document.write('Olá ' + js_nome + ' FSSeja bem vindo!!!') código original
+        document.write(`Olá ${js_nome} Seja bem vindo `) // Mensagem de saudação Personalizada
+    </script>
+    
+</body>
+</html>
