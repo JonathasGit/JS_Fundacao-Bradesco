@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concatenação</title>
+</head>
+<body>
+    <h3>Boas vindas com concatenação</h3>
+    <form name="FormConcatena" action="" method="post">
+        Digite o sreu nome: <input type="text" name="seuNome"><br>
+        Digite seu sobrenome: <input type="text" name="sSbrenome"><br>
+        <input type="button" name="btn_concatena" value="Enviar meus dados" onclick="concatena()"> <br>
+        <input type="button" name="btn_cancela" value="Cancelar">
+    </form>
+
+    <!--Definindo código JS-->
+    <script language="JS">
+        /*Objetivos = 
+        1 - Capturar nome e sobrenome
+        2- Concatenar (juntar nome e sobrenome)
+        3 - Apresentar a saudação
+        4 - Entrada - metodo form do objeto document
+        5 - saida - metodo alert do objeto window        
+        */
+
+        var nome;
+        var sobrenome;
+        var nomeCompleto;
+
+        function concatena() {
+            //entrada dos dados
+            nome = document.FormConcatena.seuNome.value;
+            sobrenome = document.FormConcatena.sSobrenome.value;
+
+            //Processando os dados
+            nomeCompleto = nome + ' ' + sobrenome;
+
+            //SAida dos dados 
+            window.alert('Olá' + nomeCompleto);
+        }
+
+    </script>
+    
+</body>
+</html>
