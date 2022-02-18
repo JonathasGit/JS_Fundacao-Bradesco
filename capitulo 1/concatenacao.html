@@ -8,15 +8,15 @@
 </head>
 <body>
     <h3>Boas vindas com concatenação</h3>
-    <form name="FormConcatena" action="" method="post">
-        Digite o sreu nome: <input type="text" name="seuNome"><br>
-        Digite seu sobrenome: <input type="text" name="sSbrenome"><br>
-        <input type="button" name="btn_concatena" value="Enviar meus dados" onclick="concatena()"> <br>
-        <input type="button" name="btn_cancela" value="Cancelar">
+    <form name="formConcatena" action="" method="post">
+        Digite o seu nome: <input type="text" name="seu_Nome"><br>
+        Digite seu sobrenome: <input type="text" name="sSobrenome"><br>
+        <input type="button" name="btn_concatena" value="Enviar meus dados" onclick="concatena()"/> <br>
+        <input type="reset" name="btn_cancela" value="Cancelar">
     </form>
 
     <!--Definindo código JS-->
-    <script language="JS">
+    <script language="javascript">
         /*Objetivos = 
         1 - Capturar nome e sobrenome
         2- Concatenar (juntar nome e sobrenome)
@@ -29,18 +29,17 @@
         var sobrenome;
         var nomeCompleto;
 
-        function concatena() {
+        function concatena( ) {
             //entrada dos dados
-            nome = document.FormConcatena.seuNome.value;
-            sobrenome = document.FormConcatena.sSobrenome.value;
+            nome = document.formConcatena.seu_Nome.value;
+            sobrenome = document.formConcatena.sSobrenome.value;
 
             //Processando os dados
             nomeCompleto = nome + ' ' + sobrenome;
 
             //SAida dos dados 
-            window.alert('Olá' + nomeCompleto);
+            window.alert('Olá ' + nomeCompleto);
         }
-
     </script>
     
 </body>
