@@ -2,7 +2,7 @@ var inserir1Numero;
 var inserir2Numero;
 var resultadoDaSoma;
 
-function vamosSomar() {
+function vamosSomar() { //funação para somar
     inserir1Numero = document.soma.primeiroNumero.value;
     inserir2Numero = document.soma.segundoNumero.value;
 
@@ -12,13 +12,18 @@ function vamosSomar() {
    alert('O resultado da SOMA é : ' + resultadoDaSoma)
 }
 
-function vamosSubtrair() {
+
+function vamosSubtrair() { // Função para Subtrair
     inserir1Numero = document.subtrai.numeroSubtrai.value;
     inserir2Numero = document.subtrai.numeroSubtrai2.value;
 
     resultadoDaSoma = parseInt(inserir1Numero) - parseInt(inserir2Numero);
 
     alert('O resultado de SUBTRAÇÃO é : ' + resultadoDaSoma)
+}
+
+function vamosDividir(){
+    
 }
 
 //document.write('O resultado é : ' + resultadoDaSoma);

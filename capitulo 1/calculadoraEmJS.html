@@ -9,9 +9,13 @@
 </head>
 <body>
     <h3 id="titulo">Bem vindo a nossa calculadora</h3><hr>
+    <h4>1 - Soma<br>
+        2 - Subtração<br>
+        3 - Divisão<br>
+        4 - Multiplicação</h4><hr>
 
     <!--Aqui é a soma-->
-    <p>1 - Soma</p>
+    <p id="TituloSoma">1 - Soma</p>
     <p>Escolha dois números para nossa soma:</p>
     <form name="soma" action="" method="post">
         Digite o primeiro Número: <input type="text" name="primeiroNumero" placeholder="Somente números"><br>
@@ -31,16 +35,28 @@
         <input type="button" name="bnt_enviar" value="Enviar" onclick="vamosSubtrair()">
         <input type="reset" name="btn_resetar" value="Resetar">
     </form><br><hr>
-    <!--Aqui começa a subtração-->
+    <!--Aqui termina a subtração-->
 
+
+     <!--Aqui começa a divisão-->
     <p>3 - Divisão</p>
     <p>Agora vamos Dividir: </p>
     <form name="divisão" action="" method="post">
-        Digite o 1° Número: <input type="tel" name="divisao1numero"><br>
-        Digite o 2° Número: <input type="number" name="divisao2numero"><br>
+        Digite o 1° Número: <input type="tel" name="divisao1numero" placeholder="Insira o número aqui"><br>
+        Digite o 2° Número: <input type="number" name="divisao2numero" placeholder="Insira o número aqui"><br>
+        <input type="button" name="btn_enviar" value="Vamos Dividir" onclick="">
+        <input type="reset" name="btn_reset" value="Resetar">
+    </form><hr>
+    <!--Aqui termina a divisão-->
 
-
+    <!--Aqui começa a Multiplicação-->
+    <p>4 - Multiplicação</p>
+    <P>Vamos Multiplicar?</P>
+    <form name="multiplica" action="" method="post">
+        
+        
     </form>
+
 
 
 

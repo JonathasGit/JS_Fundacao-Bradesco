@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação em Ordem Crescente</title>
+</head>
+<body>
+
+    <script>
+        /*Ler 2 valores, independente da ordem, 
+        E apresentá-los em ordem crescente.*/
+
+        var numero1; 
+        var numero2;
+        var trocaNumeros;
+
+        //Entrada dos dados
+        numero1 = parseInt(window.prompt('Informe um número: ' , '00'));
+        numero2 = parseInt(window.prompt('Informe o valor do segundo número', '00'));
+
+        //Saída dos valores
+        document.write('número 1 digitado = ' + numero1); //Mostrar os valores10
+        document.write('<br>número 2 digitado = ' + numero2);
+
+        //Números com classficiação
+
+        if(numero1 > numero2){
+            trocaNumeros = numero1;
+            numero1 = numero2;
+            numero2 = trocaNumeros;
+        }
+        document.write('<br2>Classificação em Ordem Crescente: ' + numero1 + ' e ' + numero2);
+
+
+
+    </script>
+</body>
+</html>
