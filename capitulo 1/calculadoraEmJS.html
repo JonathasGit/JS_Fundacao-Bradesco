@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em JS</title>
+    <link rel="stylesheet" href="styleCalculadora.css">
+</head>
+<body>
+    <h3 id="titulo">Bem vindo a nossa calculadora</h3><hr>
+
+    <!--Aqui é a soma-->
+    <p>1 - Soma</p>
+    <p>Escolha dois números para nossa soma:</p>
+    <form name="soma" action="" method="post">
+        Digite o primeiro Número: <input type="text" name="primeiroNumero" placeholder="Somente números"><br>
+        Digite o segundo Número: <input type="text" name="segundoNumero" placeholder="Somente números"><br>
+        <input type="button" name="btn_enviar" value="Enviar os números" onclick="vamosSomar();">
+        <input type="reset" name="btn_resetar" value="Resetar">
+    </form><br><hr>
+    <!--Aqui termina a soma-->
+
+
+    <!--Aqui começa a subtração-->
+    <p>2 - Subtração</p>
+    <p>Escolha os números: </p>
+    <form name="subtrai" action="" method="post">
+        Digite o primeiro Número: <input type="text" name="numeroSubtrai" placeholder="Somente números"> <br>        
+        Digite o Segundo Número: <input type="text" name="numeroSubtrai2" placeholder="Somente números"><br>
+        <input type="button" name="bnt_enviar" value="Enviar" onclick="vamosSubtrair()">
+        <input type="reset" name="btn_resetar" value="Resetar">
+    </form><br><hr>
+    <!--Aqui começa a subtração-->
+
+    <p>3 - Divisão</p>
+    <p>Agora vamos Dividir: </p>
+    <form name="divisão" action="" method="post">
+        Digite o 1° Número: <input type="tel" name="divisao1numero"><br>
+        Digite o 2° Número: <input type="number" name="divisao2numero"><br>
+
+
+    </form>
+
+
+
+
+    <script type="text/javascript" src="./calculadora.js"></script>
+</body>
+</html>
