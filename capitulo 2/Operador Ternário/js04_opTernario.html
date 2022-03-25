@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operador Ternário</title>
+</head>
+<body>
+    <h1>Operador Ternário</h1>
+    <script lang="JavaScript">
+        /*Objetivo: 
+        Exemplo práticos de aplicações com Operador Ternário ?:, Operadores relacionais e Expressão Aritimética.
+        Utilizaçõ de sintaxe: (<condição>) ? <expressão para resultado verdadediro> : <expressão para resultado falso>        
+        */
+
+        document.write('<p>-----------------------...');
+        document.write('<p>DEFINIÇÃO E ATRIBUIÇÃO DE VARIÁVEIS: ');
+        document.write('<p>var_num = <b>30</b>; (js_num recebe valor 30)');
+        var js_num = 30;
+
+        /*Aplicação de operador ternário utilizando operadores relacionais*/
+        document.write('<p>-----------------------...');
+        document.write('<p>OPERADOR TERNÁRIO    <b>(? :)</b> com Operadores Relacionais (==, !=, <):');
+        
+        document.write('<p>js_num <b>==</b>20 <b>?</b> "SIM" <b>:</b> "NÂO" - Resposta =>');
+         ((js_num ==20) ? document.write('<b>SIM</b>') : document.write('<b>Não</b>'));
+
+
+        document.write('<p>js_num <b>!=</b>20 <b>?</b> "SIM" <b>:</b> "NÂO" - Resposta =>');
+         ((js_num !=20) ? document.write('<b>SIM</b>') : document.write('<b>Não</b>'));
+
+
+        document.write('<p>js_num <b><</b> 50 <b>?</b> "SIM" <b>:</b> "NÂO" - Resposta =>');
+         ((js_num < 50) ? document.write('<b>SIM</b>') : document.write('<b>Não</b>'));
+
+         /*Aplicação de operador Ternário Utilizando expressão aritimética e operador relacional*/
+         document.write('<p>-----------------------...');
+         document.write('<p>OPERADOR TERNÁRIO com Expressão aritimética:');
+
+         document.write('<p>(js_num <b>-</b>20) <b>==</b> 0 <b>?</b> "SIM" <b>:</b> "NÂO" - Resposta =>');
+         (((js_num < 20) == 0) ? document.write('<b>SIM</b> + js_num') : document.write('<b>Não</b>'));
+ 
+
+
+
+    </script>
+
+</body>
+</html>
