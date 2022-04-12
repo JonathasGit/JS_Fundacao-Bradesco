@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Ilimitado</title>
+</head>
+<body>
+    <script language="Javascript"> 
+     /* Objetivo: 
+     Executar uma sequência de comandos por uma quantidade indeterminada de vezes utilizando uma variavel de controle
+      (valor lógico = true, por exemplo) no lugar de contadores delimitadores. O controle pode ser feito em controle através de 
+      perguntas na tela, utilizando o método confirm (OK ou cancelar, por exemplo)
+        */
+
+        var js_contador=1;
+        var js_resposta=true;
+
+        /*Laço de repertição condicional - While utilizando contole de limitação pelo usuário */
+
+        while (js_resposta == true){
+            document.write('<p>' + js_contador + ' Repetição de uma única linha de comando dentro de um laço condicional: ');
+                js_contador +=1;
+                js_resposta = window.confirm('Deseja continuar?');
+        }
+
+         // Slide 47 do capitulo 2 
+
+
+
+    </script>
+</body>
+</html>

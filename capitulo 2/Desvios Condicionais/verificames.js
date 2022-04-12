@@ -34,4 +34,6 @@ function verificames() {
     }  // final da estrutura switch
 }
 
+//Slide 36 do capitulo 2
+
 
